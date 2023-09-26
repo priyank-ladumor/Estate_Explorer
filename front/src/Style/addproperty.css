@@ -1,0 +1,24 @@
+body {
+    /* background-color: rgba(243, 243, 244, 1); */
+    background-color: #fbfbfb;
+}
+.block {
+    background-color: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    padding: 40px 0px;
+}
+.errormsg{
+    margin-top: -10px;
+    color: red;
+}
+.errormsg2{
+    color: red;
+}
+
+.btn-trash {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    z-index: 2;
+}
+

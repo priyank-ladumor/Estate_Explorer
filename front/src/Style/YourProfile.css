@@ -1,0 +1,17 @@
+.gradient-custom-2 {
+    background: #f3f3f4;
+}
+.black-layer{
+    background-color: #000; 
+    height:200px;
+}
+.img-size {
+    width: 150px; 
+    z-index: 1;
+}
+.text-locate {
+    margin-top: 130px;
+}
+.page-1 {
+    width: 150px;
+}

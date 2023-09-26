@@ -1,0 +1,30 @@
+@media(max-width:2560px){
+    .dropdown-menu[data-bs-popper] {
+        top:100%;
+        left:-200%;
+    }
+}
+@media(max-width:992px){
+    .dropdown-menu[data-bs-popper] {
+        top:100%;
+        left:0;
+    }
+}
+.dropdown-menu {
+    /* animation: 12s anim-line ease-out; */
+    animation: growDown 300ms ease-in-out forwards;
+    transform-origin: top center
+    /* transform: scale(0); */
+}
+
+@keyframes growDown {
+    0% {
+        transform: scaleY(0)
+    }
+    80% {
+        transform: scaleY(1.1)
+    }
+    100% {
+        transform: scaleY(1)
+    }
+}

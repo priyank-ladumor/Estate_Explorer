@@ -1,0 +1,18 @@
+.product_name{
+	color: rgb(139, 139, 163);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+}
+.product_price{
+	color: rgb(53, 53, 67);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    margin: 0px;
+    padding: 0px;
+}
